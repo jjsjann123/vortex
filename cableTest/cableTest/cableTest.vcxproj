@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F8F3126C-D333-4034-B6BE-68EA61B4D13D}</ProjectGuid>
+    <RootNamespace>cableTest</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/include;../header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/bin;C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/bin/$(Configuration);C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/lib;C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/lib/$(Configuration);C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/lib/OpenSceneGraph;C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/lib/OpenSceneGraph/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>VxCore62d.lib;VxCoreReflection62d.lib;VxPs62d.lib;VxReflection62d.lib;VxGraphics62d.lib;VxSimCore62d.lib;VxSimCorePersistence62d.lib;VxTerrain62d.lib;VxVehicle62d.lib;VxGraphicsOSG62d.lib;VxTerrainSystems62d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/include;../header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>NOMINMAX;_CRT_NONSTDC_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;VX_DLL;USE_OSG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/bin;C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/bin/$(Configuration);C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/lib;C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/lib/$(Configuration);C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/lib/OpenSceneGraph;C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/lib/OpenSceneGraph/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>VxCore62.lib;VxCoreReflection62.lib;VxPs62.lib;VxReflection62.lib;VxGraphics62.lib;VxSimCore62.lib;VxSimCorePersistence62.lib;VxTerrain62.lib;VxVehicle62.lib;VxGraphicsOSG62.lib;VxTerrainSystems62.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\source\ExCableSystem.cpp" />
+    <ClCompile Include="..\source\KeyboardExtension.cpp" />
+    <ClCompile Include="..\source\main.cpp" />
+    <ClCompile Include="..\source\MyCrane.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\header\ExCableSystem.h" />
+    <ClInclude Include="..\header\KeyboardExtension.h" />
+    <ClInclude Include="..\header\MyCrane.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

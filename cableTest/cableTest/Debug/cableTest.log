@@ -1,0 +1,19 @@
+﻿Build started 9/3/2014 3:38:33 PM.
+     1>Project "C:\CM Labs\testProject\cableTest\cableTest\cableTest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\cableTest.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\CM Labs\testProject\cableTest\Debug\cableTest.exe" /NOLOGO /LIBPATH:"C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/bin" /LIBPATH:"C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/bin/Debug" /LIBPATH:"C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/lib" /LIBPATH:"C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/lib/Debug" /LIBPATH:"C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/lib/OpenSceneGraph" /LIBPATH:"C:/CM Labs/Vortex Dynamics 6.2/x86 vc10 osg/lib/OpenSceneGraph/Debug" VxCore62d.lib VxCoreReflection62d.lib VxPs62d.lib VxReflection62d.lib VxGraphics62d.lib VxSimCore62d.lib VxSimCorePersistence62d.lib VxTerrain62d.lib VxVehicle62d.lib VxGraphicsOSG62d.lib VxTerrainSystems62d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\cableTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\CM Labs\testProject\cableTest\Debug\cableTest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\CM Labs\testProject\cableTest\Debug\cableTest.lib" /MACHINE:X86 Debug\ExCableSystem.obj
+         Debug\KeyboardExtension.obj
+         Debug\main.obj
+         Debug\MyCrane.obj
+            Creating library C:\CM Labs\testProject\cableTest\Debug\cableTest.lib and object C:\CM Labs\testProject\cableTest\Debug\cableTest.exp
+     1>ExCableSystem.obj : error LNK2001: unresolved external symbol "private: static class Vx::VxEnum::ReflectionAccessor * Vx::VxEnum::sReflectionAccessor" (?sReflectionAccessor@VxEnum@Vx@@0PAVReflectionAccessor@12@A)
+     1>C:\CM Labs\testProject\cableTest\Debug\cableTest.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\CM Labs\testProject\cableTest\cableTest\cableTest.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.25

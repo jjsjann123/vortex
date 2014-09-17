@@ -1,0 +1,2328 @@
+Part: default_VxPart_44
+Dynamic Type : default_VxPart_44 : static : 
+ position = 0.00, 0.00, 0.00, euler = -0.00, 0.00, -0.00
+ is static
+ 1 Collision geometries:
+   cg depth=0, material=concrete (Id=1),name=default_VxCollisionGeometry_46, type=VxPlane, relpos = 0.000 0.000 0.000, abspos = 0.000 0.000 0.000, aabb = 1.#IO 1.#IO 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000
+
+
+Part: base
+Dynamic Type : base : static : 
+ position = 0.00, 0.00, 6.00, euler = -0.00, 0.00, -0.00
+ is static
+ 3 Collision geometries:
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_62, type=VxBox, relpos = 1.500 0.000 -2.000, abspos = 1.500 0.000 4.000, aabb = 1.000 4.000 8.000
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_64, type=VxBox, relpos = -1.500 0.000 -2.000, abspos = -1.500 0.000 4.000, aabb = 1.000 4.000 8.000
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_66, type=VxBox, relpos = 0.000 0.000 -5.500, abspos = 0.000 0.000 0.500, aabb = 2.000 4.000 1.000
+
+
+Part: Winch
+Dynamic : Winch: mass = 21.8402 in group 0 
+ position = 0.00, 0.00, 8.00, euler = -0.78, -0.00, 0.00
+   v  , w    = -0.00, -0.00, -0.00 and -0.00, -0.00, -0.00
+Inertia Matrix : 
+   45.533234,     0.000000,     0.000000
+    0.000000,    24.927855,     0.000000
+    0.000000,     0.000000,    24.927855
+   lin_speed  =     0.000000 lin_acc  =     0.000000 ang_speed =     0.000053 ang_ acc =     0.000002          alive = 663
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+ 3 Collision geometries:
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_69, type=VxCylinder, relpos = 0.000 0.000 0.000, abspos = 0.000 0.000 8.000, aabb = 1.000 3.800 3.800
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_71, type=VxCylinder, relpos = 0.325 0.000 0.000, abspos = 0.325 0.000 8.000, aabb = 0.350 4.370 4.370
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_73, type=VxCylinder, relpos = -0.325 0.000 0.000, abspos = -0.325 0.000 8.000, aabb = 0.350 4.370 4.370
+
+
+Part: lowerBoom
+Dynamic : lowerBoom: mass = 32.8 in group 0 
+ position = -0.00, -0.00, 8.00, euler = 1.23, 0.00, 0.00
+   v  , w    = -0.00, 0.00, -0.00 and -0.00, -0.00, 0.00
+Inertia Matrix : 
+  231.305691,     0.000000,     0.000000
+    0.000000,    23.030667,     0.000000
+    0.000000,     0.000000,   232.469691
+   lin_speed  =     0.001288 lin_acc  =     0.000277 ang_speed =     0.000270 ang_ acc =     0.000058          alive = 509
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+ 3 Collision geometries:
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_76, type=VxBox, relpos = 0.750 0.500 0.000, abspos = 0.750 0.165 8.472, aabb = 0.400 2.880 3.493
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_78, type=VxBox, relpos = -0.750 0.500 0.000, abspos = -0.750 0.165 8.472, aabb = 0.400 2.880 3.493
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_80, type=VxBox, relpos = 0.000 5.500 0.000, abspos = -0.000 1.819 13.191, aabb = 2.000 4.202 7.268
+
+
+Part: upperBoom
+Dynamic : upperBoom: mass = 60.48 in group 0 
+ position = 0.00, 4.30, 20.27, euler = 1.23, -0.00, -0.00
+   v  , w    = -0.00, 0.00, -0.00 and -0.00, -0.00, 0.00
+Inertia Matrix : 
+ 2467.893477,     0.000000,     0.000000
+    0.000000,    50.146938,   170.835237
+    0.000000,   170.835237,  2454.437739
+   lin_speed  =     0.004659 lin_acc  =     0.001007 ang_speed =     0.000270 ang_ acc =     0.000059          alive = 561
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+ 8 Collision geometries:
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_83, type=VxBox, relpos = 0.000 -1.000 0.000, abspos = 0.000 3.968 19.324, aabb = 1.800 5.006 10.033
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_85, type=VxBox, relpos = 0.700 5.000 0.000, abspos = 0.700 5.953 24.987, aabb = 0.400 2.360 2.483
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_87, type=VxBox, relpos = -0.700 5.000 0.000, abspos = -0.700 5.953 24.987, aabb = 0.400 2.360 2.483
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_89, type=VxBox, relpos = 0.700 6.985 -0.174, abspos = 0.700 6.773 26.803, aabb = 0.400 2.549 2.625
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_91, type=VxBox, relpos = -0.700 6.985 -0.174, abspos = -0.700 6.773 26.803, aabb = 0.400 2.549 2.625
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_93, type=VxBox, relpos = 0.000 10.924 -0.868, abspos = 0.000 8.731 30.290, aabb = 1.800 4.507 6.113
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_95, type=VxBox, relpos = 0.700 14.863 -1.563, abspos = 0.700 10.689 33.778, aabb = 0.400 2.549 2.625
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_97, type=VxBox, relpos = -0.700 14.863 -1.563, abspos = -0.700 10.689 33.778, aabb = 0.400 2.549 2.625
+
+
+Part: MidPulley
+Dynamic : MidPulley: mass = 4.59065 in group 0 
+ position = 0.00, 6.28, 25.93, euler = 0.37, 0.00, -0.00
+   v  , w    = -0.00, 0.00, -0.00 and -0.00, -0.00, 0.00
+Inertia Matrix : 
+    2.630303,     0.000000,     0.000000
+    0.000000,     1.617114,     0.000000
+    0.000000,     0.000000,     1.617114
+   lin_speed  =     0.005127 lin_acc  =     0.001109 ang_speed =     0.000624 ang_ acc =     0.000165          alive = 5605
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+ 3 Collision geometries:
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_100, type=VxCylinder, relpos = 0.000 0.000 0.000, abspos = 0.000 6.283 25.931, aabb = 0.800 2.000 2.000
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_102, type=VxCylinder, relpos = 0.275 0.000 0.000, abspos = 0.275 6.283 25.931, aabb = 0.250 2.300 2.300
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_104, type=VxCylinder, relpos = -0.275 0.000 0.000, abspos = -0.275 6.283 25.931, aabb = 0.250 2.300 2.300
+
+
+Part: TipPulley
+Dynamic : TipPulley: mass = 4.77522 in group 0 
+ position = 0.00, 11.18, 34.65, euler = 2.10, -0.00, -0.00
+   v  , w    = -0.00, 0.01, -0.00 and 0.00, -0.00, 0.00
+Inertia Matrix : 
+    2.885239,     0.000000,     0.000000
+    0.000000,     1.759501,     0.000000
+    0.000000,     0.000000,     1.759501
+   lin_speed  =     0.007799 lin_acc  =     0.001689 ang_speed =     0.000057 ang_ acc =     0.000047          alive = 561
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+ 3 Collision geometries:
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_107, type=VxCylinder, relpos = 0.000 0.000 0.000, abspos = 0.000 11.179 34.650, aabb = 0.800 2.000 2.000
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_109, type=VxCylinder, relpos = 0.275 0.000 0.000, abspos = 0.275 11.179 34.650, aabb = 0.250 2.400 2.400
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_111, type=VxCylinder, relpos = -0.275 0.000 0.000, abspos = -0.275 11.179 34.650, aabb = 0.250 2.400 2.400
+
+
+Part: Load
+Dynamic : Load: mass = 400 in group 0 
+ position = -0.00, 11.36, 1.63, euler = -0.05, -0.00, 0.00
+   v  , w    = 0.00, -2.37, 0.10 and -0.16, -0.00, 0.00
+Inertia Matrix : 
+   66.666667,     0.000000,     0.000000
+    0.000000,    66.666667,     0.000000
+    0.000000,     0.000000,    66.666667
+   lin_speed  =     2.375015 lin_acc  =     1.223522 ang_speed =     0.158468 ang_ acc =     0.672630          alive = 382
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+ 1 Collision geometries:
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_163, type=VxBox, relpos = 0.000 0.000 0.000, abspos = -0.000 11.355 1.631, aabb = 1.000 1.048 1.048
+
+
+Part: groundPart
+Dynamic Type : groundPart : static : 
+ position = 0.00, 0.00, -0.10, euler = -0.00, 0.00, -0.00
+ is static
+ 1 Collision geometries:
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_168, type=VxBox, relpos = 0.000 0.000 0.000, abspos = 0.000 0.000 -0.100, aabb = 100.000 100.000 0.200
+
+
+Part: CableSystem_SegmentVar-1_Part
+Dynamic Type : CableSystem_SegmentVar-1_Part : animated : 
+ position = 0.00, 2.74, 17.18, euler = -0.49, 0.00, 3.14
+
+Part: CableSystem_SegmentFix-3_Part
+Dynamic Type : CableSystem_SegmentFix-3_Part : animated : 
+ position = 0.00, 8.73, 30.29, euler = -0.31, 0.00, 3.14
+
+Part: cable_part_0
+Dynamic Type : cable_part_0 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_1
+Dynamic Type : cable_part_1 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_2
+Dynamic Type : cable_part_2 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_3
+Dynamic Type : cable_part_3 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_4
+Dynamic Type : cable_part_4 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_5
+Dynamic Type : cable_part_5 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_6
+Dynamic Type : cable_part_6 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_7
+Dynamic Type : cable_part_7 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_8
+Dynamic Type : cable_part_8 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_9
+Dynamic Type : cable_part_9 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_10
+Dynamic Type : cable_part_10 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_11
+Dynamic Type : cable_part_11 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_12
+Dynamic Type : cable_part_12 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_13
+Dynamic Type : cable_part_13 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_14
+Dynamic Type : cable_part_14 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_15
+Dynamic Type : cable_part_15 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_16
+Dynamic Type : cable_part_16 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_17
+Dynamic Type : cable_part_17 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_18
+Dynamic Type : cable_part_18 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_19
+Dynamic Type : cable_part_19 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_20
+Dynamic Type : cable_part_20 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_21
+Dynamic Type : cable_part_21 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_22
+Dynamic Type : cable_part_22 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_23
+Dynamic Type : cable_part_23 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_24
+Dynamic Type : cable_part_24 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_25
+Dynamic Type : cable_part_25 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_26
+Dynamic Type : cable_part_26 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_27
+Dynamic Type : cable_part_27 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_28
+Dynamic Type : cable_part_28 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_29
+Dynamic Type : cable_part_29 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_30
+Dynamic Type : cable_part_30 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_31
+Dynamic Type : cable_part_31 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_32
+Dynamic Type : cable_part_32 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_33
+Dynamic Type : cable_part_33 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_34
+Dynamic Type : cable_part_34 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_35
+Dynamic Type : cable_part_35 : static : 
+ position = 10000000000.00, 10000000000.00, 10000000000.00, euler = -0.00, 0.00, -0.00
+ is static
+
+Part: cable_part_36
+Dynamic Type : cable_part_36 : static : 
+ position = -0.00, 16.05, 27.76, euler = 2.80, -0.00, -3.14
+ is static
+
+Part: cable_part_37
+Dynamic Type : cable_part_37 : static : 
+ position = -0.00, 15.00, 29.35, euler = 2.88, -0.00, -3.14
+ is static
+
+Part: cable_part_38
+Dynamic Type : cable_part_38 : static : 
+ position = -0.00, 5.54, 36.15, euler = 3.04, -0.00, -3.14
+ is static
+
+Part: cable_part_39
+Dynamic Type : cable_part_39 : static : 
+ position = 0.00, 5.57, 36.19, euler = 3.12, 0.00, -3.14
+ is static
+
+Part: cable_part_40
+Dynamic Type : cable_part_40 : static : 
+ position = 0.00, 5.58, 36.24, euler = 3.14, 0.00, -3.14
+ is static
+
+Part: cable_part_41
+Dynamic Type : cable_part_41 : static : 
+ position = 0.00, 5.56, 36.20, euler = 3.09, 0.00, -3.14
+ is static
+
+Part: cable_part_42
+Dynamic Type : cable_part_42 : static : 
+ position = 0.00, 5.57, 36.21, euler = 3.11, 0.00, -3.14
+ is static
+
+Part: cable_part_43
+Dynamic Type : cable_part_43 : static : 
+ position = 0.00, 5.59, 36.26, euler = -3.12, 0.00, -3.14
+ is static
+
+Part: cable_part_44
+Dynamic Type : cable_part_44 : static : 
+ position = 0.00, 5.58, 36.26, euler = 3.14, 0.00, -3.14
+ is static
+
+Part: cable_part_45
+Dynamic Type : cable_part_45 : static : 
+ position = 0.00, 5.58, 36.26, euler = -3.13, 0.00, -3.14
+ is static
+
+Part: cable_part_46
+Dynamic Type : cable_part_46 : static : 
+ position = 0.00, 5.60, 36.28, euler = -3.09, 0.00, -3.14
+ is static
+
+Part: cable_part_47
+Dynamic Type : cable_part_47 : static : 
+ position = 0.00, 5.59, 36.29, euler = -3.11, 0.00, -3.14
+ is static
+
+Part: cable_part_48
+Dynamic Type : cable_part_48 : static : 
+ position = -0.00, 5.60, 36.29, euler = -3.08, -0.00, -3.14
+ is static
+
+Part: cable_part_49
+Dynamic Type : cable_part_49 : static : 
+ position = 0.00, 5.60, 36.31, euler = -3.08, -0.00, -3.14
+ is static
+
+Part: cable_part_50
+Dynamic Type : cable_part_50 : static : 
+ position = 0.00, 5.60, 36.32, euler = -3.08, 0.00, -3.14
+ is static
+
+Part: cable_part_51
+Dynamic Type : cable_part_51 : static : 
+ position = 0.00, 9.74, 35.19, euler = 3.09, 0.00, -3.14
+ is static
+
+Part: cable_part_52
+Dynamic : cable_part_52: mass = 0.706478 in group 0 
+ position = -0.00, 12.16, 33.93, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.02, -0.07 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.029402,     0.000000,     0.000000
+    0.000000,     0.029402,     0.000000
+    0.000000,     0.000000,     0.000035
+   lin_speed  =     0.071211 lin_acc  =     0.013128 ang_speed =     0.067572 ang_ acc =     3.997086          alive = 0
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_53
+Dynamic : cable_part_53: mass = 0.444409 in group 0 
+ position = -0.00, 12.15, 33.28, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.07, -0.07 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007325,     0.000000,     0.000000
+    0.000000,     0.007325,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.096193 lin_acc  =     0.033479 ang_speed =     0.067754 ang_ acc =     4.042313          alive = 2532
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_54
+Dynamic : cable_part_54: mass = 0.442932 in group 0 
+ position = -0.00, 12.13, 32.63, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.11, -0.06 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007253,     0.000000,     0.000000
+    0.000000,     0.007253,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.130199 lin_acc  =     0.058924 ang_speed =     0.067888 ang_ acc =     4.050453          alive = 2546
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_55
+Dynamic : cable_part_55: mass = 0.447012 in group 0 
+ position = -0.00, 12.12, 31.98, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.16, -0.06 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007455,     0.000000,     0.000000
+    0.000000,     0.007455,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.169173 lin_acc  =     0.085521 ang_speed =     0.067994 ang_ acc =     4.056318          alive = 2559
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_56
+Dynamic : cable_part_56: mass = 0.437748 in group 0 
+ position = -0.00, 12.10, 31.34, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.20, -0.06 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007001,     0.000000,     0.000000
+    0.000000,     0.007001,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.209903 lin_acc  =     0.111885 ang_speed =     0.068086 ang_ acc =     4.062806          alive = 2569
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_57
+Dynamic : cable_part_57: mass = 0.446313 in group 0 
+ position = -0.00, 12.09, 30.68, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.25, -0.05 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007420,     0.000000,     0.000000
+    0.000000,     0.007420,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.251986 lin_acc  =     0.138676 ang_speed =     0.068177 ang_ acc =     4.067312          alive = 2579
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_58
+Dynamic : cable_part_58: mass = 0.445622 in group 0 
+ position = -0.00, 12.07, 30.03, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.29, -0.05 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007385,     0.000000,     0.000000
+    0.000000,     0.007385,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.294985 lin_acc  =     0.165463 ang_speed =     0.068268 ang_ acc =     4.072851          alive = 2641
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_59
+Dynamic : cable_part_59: mass = 0.436504 in group 0 
+ position = -0.00, 12.06, 29.39, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.33, -0.05 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.006942,     0.000000,     0.000000
+    0.000000,     0.006942,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.337816 lin_acc  =     0.191695 ang_speed =     0.068362 ang_ acc =     4.079396          alive = 2655
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_60
+Dynamic : cable_part_60: mass = 0.444855 in group 0 
+ position = -0.00, 12.04, 28.74, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.38, -0.04 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007347,     0.000000,     0.000000
+    0.000000,     0.007347,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.381177 lin_acc  =     0.218221 ang_speed =     0.068460 ang_ acc =     4.084373          alive = 2666
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_61
+Dynamic : cable_part_61: mass = 0.444821 in group 0 
+ position = -0.00, 12.02, 28.10, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.42, -0.04 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007346,     0.000000,     0.000000
+    0.000000,     0.007346,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.425049 lin_acc  =     0.244690 ang_speed =     0.068562 ang_ acc =     4.090448          alive = 2675
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_62
+Dynamic : cable_part_62: mass = 0.439069 in group 0 
+ position = -0.00, 12.01, 27.45, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.47, -0.04 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007065,     0.000000,     0.000000
+    0.000000,     0.007065,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.468728 lin_acc  =     0.270730 ang_speed =     0.068667 ang_ acc =     4.097314          alive = 2688
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_63
+Dynamic : cable_part_63: mass = 0.445642 in group 0 
+ position = -0.00, 11.99, 26.80, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.51, -0.03 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007386,     0.000000,     0.000000
+    0.000000,     0.007386,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.512789 lin_acc  =     0.296943 ang_speed =     0.068777 ang_ acc =     4.103159          alive = 2709
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_64
+Dynamic : cable_part_64: mass = 0.44329 in group 0 
+ position = -0.00, 11.98, 26.16, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.56, -0.03 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007270,     0.000000,     0.000000
+    0.000000,     0.007270,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.557054 lin_acc  =     0.322920 ang_speed =     0.068890 ang_ acc =     4.110153          alive = 2725
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_65
+Dynamic : cable_part_65: mass = 0.443279 in group 0 
+ position = -0.00, 11.96, 25.51, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.60, -0.03 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007270,     0.000000,     0.000000
+    0.000000,     0.007270,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.601355 lin_acc  =     0.348721 ang_speed =     0.069007 ang_ acc =     4.117127          alive = 2739
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_66
+Dynamic : cable_part_66: mass = 0.443267 in group 0 
+ position = -0.00, 11.95, 24.87, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.65, -0.02 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007269,     0.000000,     0.000000
+    0.000000,     0.007269,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.645762 lin_acc  =     0.374350 ang_speed =     0.069127 ang_ acc =     4.124323          alive = 2753
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_67
+Dynamic : cable_part_67: mass = 0.443254 in group 0 
+ position = -0.00, 11.93, 24.22, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.69, -0.02 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007268,     0.000000,     0.000000
+    0.000000,     0.007268,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.690270 lin_acc  =     0.399799 ang_speed =     0.069252 ang_ acc =     4.131739          alive = 2767
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_68
+Dynamic : cable_part_68: mass = 0.443239 in group 0 
+ position = -0.00, 11.92, 23.57, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.73, -0.01 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007268,     0.000000,     0.000000
+    0.000000,     0.007268,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.734874 lin_acc  =     0.425060 ang_speed =     0.069380 ang_ acc =     4.139372          alive = 2781
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_69
+Dynamic : cable_part_69: mass = 0.443224 in group 0 
+ position = -0.00, 11.90, 22.93, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.78, -0.01 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007267,     0.000000,     0.000000
+    0.000000,     0.007267,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.779571 lin_acc  =     0.450129 ang_speed =     0.069511 ang_ acc =     4.147219          alive = 2795
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_70
+Dynamic : cable_part_70: mass = 0.443207 in group 0 
+ position = -0.00, 11.88, 22.28, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.82, -0.01 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007266,     0.000000,     0.000000
+    0.000000,     0.007266,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.824359 lin_acc  =     0.475001 ang_speed =     0.069646 ang_ acc =     4.155276          alive = 2809
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_71
+Dynamic : cable_part_71: mass = 0.443188 in group 0 
+ position = -0.00, 11.87, 21.64, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.87, -0.00 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007265,     0.000000,     0.000000
+    0.000000,     0.007265,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.869237 lin_acc  =     0.499673 ang_speed =     0.069785 ang_ acc =     4.163541          alive = 2823
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_72
+Dynamic : cable_part_72: mass = 0.443167 in group 0 
+ position = -0.00, 11.85, 20.99, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.91, -0.00 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007264,     0.000000,     0.000000
+    0.000000,     0.007264,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.914204 lin_acc  =     0.524142 ang_speed =     0.069927 ang_ acc =     4.172008          alive = 2837
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_73
+Dynamic : cable_part_73: mass = 0.443146 in group 0 
+ position = -0.00, 11.84, 20.35, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -0.96, 0.00 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007263,     0.000000,     0.000000
+    0.000000,     0.007263,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     0.959260 lin_acc  =     0.548410 ang_speed =     0.070072 ang_ acc =     4.180672          alive = 2851
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_74
+Dynamic : cable_part_74: mass = 0.443124 in group 0 
+ position = -0.00, 11.82, 19.70, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.00, 0.01 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007262,     0.000000,     0.000000
+    0.000000,     0.007262,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     1.004405 lin_acc  =     0.572475 ang_speed =     0.070221 ang_ acc =     4.189528          alive = 2865
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_75
+Dynamic : cable_part_75: mass = 0.4431 in group 0 
+ position = -0.00, 11.80, 19.06, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.05, 0.01 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007261,     0.000000,     0.000000
+    0.000000,     0.007261,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     1.049639 lin_acc  =     0.596341 ang_speed =     0.070372 ang_ acc =     4.198570          alive = 2879
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_76
+Dynamic : cable_part_76: mass = 0.443089 in group 0 
+ position = -0.00, 11.79, 18.42, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.09, 0.01 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007260,     0.000000,     0.000000
+    0.000000,     0.007260,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     1.094965 lin_acc  =     0.620012 ang_speed =     0.070527 ang_ acc =     4.207790          alive = 2893
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_77
+Dynamic : cable_part_77: mass = 0.443087 in group 0 
+ position = -0.00, 11.77, 17.77, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.14, 0.02 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007260,     0.000000,     0.000000
+    0.000000,     0.007260,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     1.140383 lin_acc  =     0.643494 ang_speed =     0.070684 ang_ acc =     4.217182          alive = 2907
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_78
+Dynamic : cable_part_78: mass = 0.443092 in group 0 
+ position = -0.00, 11.76, 17.13, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.19, 0.02 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007260,     0.000000,     0.000000
+    0.000000,     0.007260,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     1.185896 lin_acc  =     0.666793 ang_speed =     0.070845 ang_ acc =     4.226737          alive = 2921
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_79
+Dynamic : cable_part_79: mass = 0.443106 in group 0 
+ position = -0.00, 11.74, 16.49, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.23, 0.02 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007261,     0.000000,     0.000000
+    0.000000,     0.007261,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     1.231505 lin_acc  =     0.689917 ang_speed =     0.071008 ang_ acc =     4.236449          alive = 2935
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_80
+Dynamic : cable_part_80: mass = 0.443128 in group 0 
+ position = -0.00, 11.73, 15.84, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.28, 0.03 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007262,     0.000000,     0.000000
+    0.000000,     0.007262,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     1.277212 lin_acc  =     0.712875 ang_speed =     0.071173 ang_ acc =     4.246308          alive = 2949
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_81
+Dynamic : cable_part_81: mass = 0.443161 in group 0 
+ position = -0.00, 11.71, 15.20, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.32, 0.03 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007264,     0.000000,     0.000000
+    0.000000,     0.007264,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     1.323019 lin_acc  =     0.735680 ang_speed =     0.071341 ang_ acc =     4.256304          alive = 2963
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_82
+Dynamic : cable_part_82: mass = 0.443211 in group 0 
+ position = -0.00, 11.69, 14.56, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.37, 0.03 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007266,     0.000000,     0.000000
+    0.000000,     0.007266,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     1.368929 lin_acc  =     0.758342 ang_speed =     0.071511 ang_ acc =     4.266427          alive = 2977
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_83
+Dynamic : cable_part_83: mass = 0.443293 in group 0 
+ position = -0.00, 11.68, 13.91, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.41, 0.04 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007270,     0.000000,     0.000000
+    0.000000,     0.007270,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     1.414944 lin_acc  =     0.780875 ang_speed =     0.071683 ang_ acc =     4.276666          alive = 2991
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_84
+Dynamic : cable_part_84: mass = 0.443427 in group 0 
+ position = -0.00, 11.66, 13.27, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.46, 0.04 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007277,     0.000000,     0.000000
+    0.000000,     0.007277,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     1.461071 lin_acc  =     0.803297 ang_speed =     0.071856 ang_ acc =     4.287006          alive = 3005
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_85
+Dynamic : cable_part_85: mass = 0.443668 in group 0 
+ position = -0.00, 11.65, 12.63, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.51, 0.04 and -0.07, 0.00, -0.00
+Inertia Matrix : 
+    0.007289,     0.000000,     0.000000
+    0.000000,     0.007289,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     1.507320 lin_acc  =     0.825627 ang_speed =     0.072031 ang_ acc =     4.297429          alive = 3019
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_86
+Dynamic : cable_part_86: mass = 0.444129 in group 0 
+ position = -0.00, 11.63, 11.99, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.55, 0.05 and -0.07, 0.00, 0.00
+Inertia Matrix : 
+    0.007311,     0.000000,     0.000000
+    0.000000,     0.007311,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     1.553709 lin_acc  =     0.847892 ang_speed =     0.072208 ang_ acc =     4.307905          alive = 3033
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_87
+Dynamic : cable_part_87: mass = 0.44504 in group 0 
+ position = -0.00, 11.61, 11.34, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.60, 0.05 and -0.07, 0.00, 0.00
+Inertia Matrix : 
+    0.007357,     0.000000,     0.000000
+    0.000000,     0.007357,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     1.600279 lin_acc  =     0.870130 ang_speed =     0.072385 ang_ acc =     4.318376          alive = 3047
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_88
+Dynamic : cable_part_88: mass = 0.446872 in group 0 
+ position = -0.00, 11.60, 10.69, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.65, 0.05 and -0.07, -0.00, 0.00
+Inertia Matrix : 
+    0.007448,     0.000000,     0.000000
+    0.000000,     0.007448,     0.000000
+    0.000000,     0.000000,     0.000022
+   lin_speed  =     1.647109 lin_acc  =     0.892403 ang_speed =     0.072562 ang_ acc =     4.328713          alive = 3061
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_89
+Dynamic : cable_part_89: mass = 0.605304 in group 0 
+ position = -0.00, 11.40, 3.00, euler = 3.12, 0.00, -3.14
+   v  , w    = -0.00, -2.21, 0.09 and -0.07, -0.00, 0.00
+Inertia Matrix : 
+    0.018497,     0.000000,     0.000000
+    0.000000,     0.018497,     0.000000
+    0.000000,     0.000000,     0.000030
+   lin_speed  =     2.207821 lin_acc  =     1.160174 ang_speed =     0.074679 ang_ acc =     4.433645          alive = 0
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_90
+Dynamic : cable_part_90: mass = 0.605304 in group 0 
+ position = -0.00, 11.42, 3.88, euler = 3.12, 0.00, -3.14
+   v  , w    = -0.00, -2.14, 0.09 and -0.07, -0.00, 0.00
+Inertia Matrix : 
+    0.018497,     0.000000,     0.000000
+    0.000000,     0.018497,     0.000000
+    0.000000,     0.000000,     0.000030
+   lin_speed  =     2.142709 lin_acc  =     1.128952 ang_speed =     0.074436 ang_ acc =     4.419269          alive = 5605
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_91
+Dynamic : cable_part_91: mass = 0.605304 in group 0 
+ position = -0.00, 11.45, 4.75, euler = 3.12, 0.00, -3.14
+   v  , w    = -0.00, -2.08, 0.08 and -0.07, -0.00, 0.00
+Inertia Matrix : 
+    0.018497,     0.000000,     0.000000
+    0.000000,     0.018497,     0.000000
+    0.000000,     0.000000,     0.000030
+   lin_speed  =     2.077780 lin_acc  =     1.098033 ang_speed =     0.074197 ang_ acc =     4.405048          alive = 5605
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_92
+Dynamic : cable_part_92: mass = 0.605304 in group 0 
+ position = -0.00, 11.47, 5.62, euler = 3.12, 0.00, -3.14
+   v  , w    = -0.00, -2.01, 0.08 and -0.07, -0.00, 0.00
+Inertia Matrix : 
+    0.018497,     0.000000,     0.000000
+    0.000000,     0.018497,     0.000000
+    0.000000,     0.000000,     0.000030
+   lin_speed  =     2.013032 lin_acc  =     1.067367 ang_speed =     0.073957 ang_ acc =     4.390842          alive = 5605
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_93
+Dynamic : cable_part_93: mass = 0.605304 in group 0 
+ position = -0.00, 11.49, 6.50, euler = 3.12, 0.00, -3.14
+   v  , w    = -0.00, -1.95, 0.08 and -0.07, -0.00, 0.00
+Inertia Matrix : 
+    0.018497,     0.000000,     0.000000
+    0.000000,     0.018497,     0.000000
+    0.000000,     0.000000,     0.000030
+   lin_speed  =     1.948468 lin_acc  =     1.036906 ang_speed =     0.073716 ang_ acc =     4.376546          alive = 5605
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_94
+Dynamic : cable_part_94: mass = 0.605304 in group 0 
+ position = -0.00, 11.51, 7.37, euler = 3.12, 0.00, -3.14
+   v  , w    = -0.00, -1.88, 0.07 and -0.07, -0.00, 0.00
+Inertia Matrix : 
+    0.018497,     0.000000,     0.000000
+    0.000000,     0.018497,     0.000000
+    0.000000,     0.000000,     0.000030
+   lin_speed  =     1.884088 lin_acc  =     1.006603 ang_speed =     0.073473 ang_ acc =     4.362141          alive = 5605
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_95
+Dynamic : cable_part_95: mass = 0.605304 in group 0 
+ position = -0.00, 11.54, 8.25, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.82, 0.07 and -0.07, -0.00, 0.00
+Inertia Matrix : 
+    0.018497,     0.000000,     0.000000
+    0.000000,     0.018497,     0.000000
+    0.000000,     0.000000,     0.000030
+   lin_speed  =     1.819895 lin_acc  =     0.976410 ang_speed =     0.073229 ang_ acc =     4.347660          alive = 5605
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_96
+Dynamic : cable_part_96: mass = 0.605304 in group 0 
+ position = -0.00, 11.56, 9.12, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.75, 0.06 and -0.07, -0.00, 0.00
+Inertia Matrix : 
+    0.018497,     0.000000,     0.000000
+    0.000000,     0.018497,     0.000000
+    0.000000,     0.000000,     0.000030
+   lin_speed  =     1.755889 lin_acc  =     0.946279 ang_speed =     0.072985 ang_ acc =     4.333212          alive = 5605
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_part_97
+Dynamic : cable_part_97: mass = 0.482218 in group 0 
+ position = -0.00, 11.58, 10.00, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, -1.70, 0.06 and -0.07, -0.00, 0.00
+Inertia Matrix : 
+    0.009356,     0.000000,     0.000000
+    0.000000,     0.009356,     0.000000
+    0.000000,     0.000000,     0.000024
+   lin_speed  =     1.696544 lin_acc  =     0.916349 ang_speed =     0.072749 ang_ acc =     4.335796          alive = 3074
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: cable_last_part
+Dynamic : cable_last_part: mass = 0.605304 in group 0 
+ position = -0.00, 11.38, 2.13, euler = 3.12, 0.00, -3.14
+   v  , w    = -0.00, -2.27, 0.10 and -0.07, -0.00, 0.00
+Inertia Matrix : 
+    0.018497,     0.000000,     0.000000
+    0.000000,     0.018497,     0.000000
+    0.000000,     0.000000,     0.000030
+   lin_speed  =     2.273112 lin_acc  =     1.191762 ang_speed =     0.074909 ang_ acc =     4.447330          alive = 0
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+Part: C_part
+Dynamic : C_part: mass = 0.605304 in group 0 
+ position = 0.00, 12.18, 34.63, euler = 3.12, -0.00, -3.14
+   v  , w    = -0.00, 0.01, -0.07 and -0.07, -0.00, -0.00
+Inertia Matrix : 
+    0.000061,     0.000000,     0.000000
+    0.000000,     0.000061,     0.000000
+    0.000000,     0.000000,     0.000061
+   lin_speed  =     0.070057 lin_acc  =     0.008331 ang_speed =     0.067572 ang_ acc =     4.054127          alive = 0
+   thresholds =     0.140000                0.045000                 0.030000                0.045000          alive = 10
+
+CollisonGeometry: default_VxCollisionGeometry_46
+   cg depth=0, material=concrete (Id=1),name=default_VxCollisionGeometry_46, type=VxPlane, relpos = 0.000 0.000 0.000, abspos = 0.000 0.000 0.000, aabb = 1.#IO 1.#IO 179769313486231570000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000.000
+
+CollisonGeometry: default_VxCollisionGeometry_62
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_62, type=VxBox, relpos = 1.500 0.000 -2.000, abspos = 1.500 0.000 4.000, aabb = 1.000 4.000 8.000
+
+CollisonGeometry: default_VxCollisionGeometry_64
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_64, type=VxBox, relpos = -1.500 0.000 -2.000, abspos = -1.500 0.000 4.000, aabb = 1.000 4.000 8.000
+
+CollisonGeometry: default_VxCollisionGeometry_66
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_66, type=VxBox, relpos = 0.000 0.000 -5.500, abspos = 0.000 0.000 0.500, aabb = 2.000 4.000 1.000
+
+CollisonGeometry: default_VxCollisionGeometry_69
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_69, type=VxCylinder, relpos = 0.000 0.000 0.000, abspos = 0.000 0.000 8.000, aabb = 1.000 3.800 3.800
+
+CollisonGeometry: default_VxCollisionGeometry_71
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_71, type=VxCylinder, relpos = 0.325 0.000 0.000, abspos = 0.325 0.000 8.000, aabb = 0.350 4.370 4.370
+
+CollisonGeometry: default_VxCollisionGeometry_73
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_73, type=VxCylinder, relpos = -0.325 0.000 0.000, abspos = -0.325 0.000 8.000, aabb = 0.350 4.370 4.370
+
+CollisonGeometry: default_VxCollisionGeometry_76
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_76, type=VxBox, relpos = 0.750 0.500 0.000, abspos = 0.750 0.165 8.472, aabb = 0.400 2.880 3.493
+
+CollisonGeometry: default_VxCollisionGeometry_78
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_78, type=VxBox, relpos = -0.750 0.500 0.000, abspos = -0.750 0.165 8.472, aabb = 0.400 2.880 3.493
+
+CollisonGeometry: default_VxCollisionGeometry_80
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_80, type=VxBox, relpos = 0.000 5.500 0.000, abspos = -0.000 1.819 13.191, aabb = 2.000 4.202 7.268
+
+CollisonGeometry: default_VxCollisionGeometry_83
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_83, type=VxBox, relpos = 0.000 -1.000 0.000, abspos = 0.000 3.968 19.324, aabb = 1.800 5.006 10.033
+
+CollisonGeometry: default_VxCollisionGeometry_85
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_85, type=VxBox, relpos = 0.700 5.000 0.000, abspos = 0.700 5.953 24.987, aabb = 0.400 2.360 2.483
+
+CollisonGeometry: default_VxCollisionGeometry_87
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_87, type=VxBox, relpos = -0.700 5.000 0.000, abspos = -0.700 5.953 24.987, aabb = 0.400 2.360 2.483
+
+CollisonGeometry: default_VxCollisionGeometry_89
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_89, type=VxBox, relpos = 0.700 6.985 -0.174, abspos = 0.700 6.773 26.803, aabb = 0.400 2.549 2.625
+
+CollisonGeometry: default_VxCollisionGeometry_91
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_91, type=VxBox, relpos = -0.700 6.985 -0.174, abspos = -0.700 6.773 26.803, aabb = 0.400 2.549 2.625
+
+CollisonGeometry: default_VxCollisionGeometry_93
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_93, type=VxBox, relpos = 0.000 10.924 -0.868, abspos = 0.000 8.731 30.290, aabb = 1.800 4.507 6.113
+
+CollisonGeometry: default_VxCollisionGeometry_95
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_95, type=VxBox, relpos = 0.700 14.863 -1.563, abspos = 0.700 10.689 33.778, aabb = 0.400 2.549 2.625
+
+CollisonGeometry: default_VxCollisionGeometry_97
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_97, type=VxBox, relpos = -0.700 14.863 -1.563, abspos = -0.700 10.689 33.778, aabb = 0.400 2.549 2.625
+
+CollisonGeometry: default_VxCollisionGeometry_100
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_100, type=VxCylinder, relpos = 0.000 0.000 0.000, abspos = 0.000 6.283 25.931, aabb = 0.800 2.000 2.000
+
+CollisonGeometry: default_VxCollisionGeometry_102
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_102, type=VxCylinder, relpos = 0.275 0.000 0.000, abspos = 0.275 6.283 25.931, aabb = 0.250 2.300 2.300
+
+CollisonGeometry: default_VxCollisionGeometry_104
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_104, type=VxCylinder, relpos = -0.275 0.000 0.000, abspos = -0.275 6.283 25.931, aabb = 0.250 2.300 2.300
+
+CollisonGeometry: default_VxCollisionGeometry_107
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_107, type=VxCylinder, relpos = 0.000 0.000 0.000, abspos = 0.000 11.179 34.650, aabb = 0.800 2.000 2.000
+
+CollisonGeometry: default_VxCollisionGeometry_109
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_109, type=VxCylinder, relpos = 0.275 0.000 0.000, abspos = 0.275 11.179 34.650, aabb = 0.250 2.400 2.400
+
+CollisonGeometry: default_VxCollisionGeometry_111
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_111, type=VxCylinder, relpos = -0.275 0.000 0.000, abspos = -0.275 11.179 34.650, aabb = 0.250 2.400 2.400
+
+CollisonGeometry: default_VxCollisionGeometry_163
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_163, type=VxBox, relpos = 0.000 0.000 0.000, abspos = -0.000 11.355 1.631, aabb = 1.000 1.048 1.048
+
+CollisonGeometry: default_VxCollisionGeometry_168
+   cg depth=0, material=NULL,name=default_VxCollisionGeometry_168, type=VxBox, relpos = 0.000 0.000 0.000, abspos = 0.000 0.000 -0.100, aabb = 100.000 100.000 0.200
+
+Constraint: default_VxHinge_112
+constraint default_VxHinge_112: attached to:
+ base
+ 0	relpos = 0.00, 0.00, 2.00
+	relax0 = 1.00, 0.00, 0.00
+	relax1 = 0.00, 0.00, -1.00
+	abspos = 0.00, 0.00, 8.00
+	absax0 = 1.00, 0.00, 0.00
+	absax1 = 0.00, 0.00, -1.00
+ Winch
+ 1	relpos = 0.00, 0.00, 0.00
+	relax0 = 1.00, 0.00, 0.00
+	relax1 = 0.00, 0.00, -1.00
+	abspos = 0.00, 0.00, 8.00
+	absax0 = 1.00, 0.00, -0.00
+	absax1 = 0.00, -0.70, -0.71
+  Coord 0 is motorized at velocity 0 with max force 1.79769e+308
+  Coord 0 is not limited, curr pos = 7.06126
+
+Constraint: default_VxHinge_121
+constraint default_VxHinge_121: attached to:
+ upperBoom
+ 0	relpos = 0.00, 6.00, 0.00
+	relax0 = 1.00, 0.00, 0.00
+	relax1 = 0.00, 0.00, -1.00
+	abspos = 0.00, 6.28, 25.93
+	absax0 = 1.00, -0.00, -0.00
+	absax1 = 0.00, 0.94, -0.33
+ MidPulley
+ 1	relpos = 0.00, 0.00, 0.00
+	relax0 = 1.00, 0.00, 0.00
+	relax1 = 0.00, 0.00, -1.00
+	abspos = 0.00, 6.28, 25.93
+	absax0 = 1.00, -0.00, -0.00
+	absax1 = -0.00, 0.36, -0.93
+  Coord 0 is free
+  Coord 0 is not limited, curr pos = -11.7004
+
+Constraint: default_VxHinge_130
+constraint default_VxHinge_130: attached to:
+ upperBoom
+ 0	relpos = 0.00, 15.85, -1.74
+	relax0 = 1.00, 0.00, 0.00
+	relax1 = 0.00, 0.00, -1.00
+	abspos = 0.00, 11.18, 34.65
+	absax0 = 1.00, -0.00, -0.00
+	absax1 = 0.00, 0.94, -0.33
+ TipPulley
+ 1	relpos = 0.00, 0.00, 0.00
+	relax0 = 1.00, 0.00, 0.00
+	relax1 = 0.00, 0.00, -1.00
+	abspos = 0.00, 11.18, 34.65
+	absax0 = 1.00, -0.00, -0.00
+	absax1 = 0.00, 0.86, 0.50
+  Coord 0 is free
+  Coord 0 is not limited, curr pos = 11.7019
+
+Constraint: default_VxHinge_139
+constraint default_VxHinge_139: attached to:
+ base
+ 0	relpos = 0.00, 0.00, 2.00
+	relax0 = -1.00, -0.00, -0.00
+	relax1 = 0.00, 0.00, 1.00
+	abspos = 0.00, 0.00, 8.00
+	absax0 = -1.00, -0.00, -0.00
+	absax1 = 0.00, 0.00, 1.00
+ lowerBoom
+ 1	relpos = 0.00, 0.00, 0.00
+	relax0 = -1.00, -0.00, -0.00
+	relax1 = 0.00, 0.00, 1.00
+	abspos = -0.00, -0.00, 8.00
+	absax0 = -1.00, -0.00, -0.00
+	absax1 = 0.00, -0.94, 0.33
+  Coord 0 is motorized at velocity 0 with max force 1.79769e+308
+  Coord 0 is limited at 0 1.48353, curr pos = 1.23375
+
+Constraint: default_VxPrismatic_148
+constraint default_VxPrismatic_148: attached to:
+ upperBoom
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 1.00, 0.00
+	relax1 = 0.00, 0.00, 1.00
+	abspos = 0.00, 4.30, 20.27
+	absax0 = 0.00, 0.33, 0.94
+	absax1 = -0.00, -0.94, 0.33
+ lowerBoom
+ 1	relpos = 0.00, 9.00, 0.00
+	relax0 = 0.00, 1.00, 0.00
+	relax1 = 0.00, 0.00, 1.00
+	abspos = -0.00, 2.98, 16.49
+	absax0 = -0.00, 0.33, 0.94
+	absax1 = 0.00, -0.94, 0.33
+  Coord 0 is motorized at velocity 0 with max force 1.79769e+308
+  Coord 0 is limited at -4 4, curr pos = 3.99957
+
+Constraint: CableSystem_SegmentVar-1_Constraint_Attachment
+constraint CableSystem_SegmentVar-1_Constraint_Attachment: attached to:
+ Winch
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = -1.00, -0.00, -0.00
+	relax1 = 0.00, 0.19, 0.98
+	abspos = 0.00, 0.00, 8.00
+	absax0 = -1.00, -0.00, 0.00
+	absax1 = -0.00, 0.83, 0.56
+ MidPulley
+ 1	relpos = 0.00, 0.00, 0.00
+	relax0 = 1.00, 0.00, 0.00
+	relax1 = 0.00, -0.19, -0.98
+	abspos = 0.00, 6.28, 25.93
+	absax0 = 1.00, -0.00, -0.00
+	absax1 = -0.00, 0.17, -0.99
+
+Constraint: CableSystem_SegmentFix-3_Constraint_Attachment
+constraint CableSystem_SegmentFix-3_Constraint_Attachment: attached to:
+ MidPulley
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 1.00, 0.00, 0.00
+	relax1 = 0.00, 0.00, -1.00
+	abspos = 0.00, 6.28, 25.93
+	absax0 = 1.00, -0.00, -0.00
+	absax1 = -0.00, 0.36, -0.93
+ TipPulley
+ 1	relpos = 0.00, 0.00, 0.00
+	relax0 = 1.00, 0.00, 0.00
+	relax1 = 0.00, 0.00, -1.00
+	abspos = 0.00, 11.18, 34.65
+	absax0 = 1.00, -0.00, -0.00
+	absax1 = 0.00, 0.86, 0.50
+ upperBoom
+ 2	relpos = 0.00, 0.00, 0.00
+	relax0 = 1.00, 0.00, 0.00
+	relax1 = 0.00, 0.00, -1.00
+	abspos = 0.00, 4.30, 20.27
+	absax0 = 1.00, -0.00, -0.00
+	absax1 = 0.00, 0.94, -0.33
+ upperBoom
+ 3	relpos = 0.00, 0.00, 0.00
+	relax0 = 1.00, 0.00, 0.00
+	relax1 = 0.00, 0.00, -1.00
+	abspos = 0.00, 4.30, 20.27
+	absax0 = 1.00, -0.00, -0.00
+	absax1 = 0.00, 0.94, -0.33
+  ratios = 1.00 
+
+Constraint: CableSystem_SegmentFlex-5_constraint_0
+constraint CableSystem_SegmentFlex-5_constraint_0: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_1
+constraint CableSystem_SegmentFlex-5_constraint_1: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_2
+constraint CableSystem_SegmentFlex-5_constraint_2: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_3
+constraint CableSystem_SegmentFlex-5_constraint_3: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_4
+constraint CableSystem_SegmentFlex-5_constraint_4: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_5
+constraint CableSystem_SegmentFlex-5_constraint_5: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_6
+constraint CableSystem_SegmentFlex-5_constraint_6: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_7
+constraint CableSystem_SegmentFlex-5_constraint_7: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_8
+constraint CableSystem_SegmentFlex-5_constraint_8: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_9
+constraint CableSystem_SegmentFlex-5_constraint_9: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_10
+constraint CableSystem_SegmentFlex-5_constraint_10: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_11
+constraint CableSystem_SegmentFlex-5_constraint_11: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_12
+constraint CableSystem_SegmentFlex-5_constraint_12: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_13
+constraint CableSystem_SegmentFlex-5_constraint_13: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_14
+constraint CableSystem_SegmentFlex-5_constraint_14: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_15
+constraint CableSystem_SegmentFlex-5_constraint_15: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_16
+constraint CableSystem_SegmentFlex-5_constraint_16: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_17
+constraint CableSystem_SegmentFlex-5_constraint_17: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_18
+constraint CableSystem_SegmentFlex-5_constraint_18: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_19
+constraint CableSystem_SegmentFlex-5_constraint_19: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_20
+constraint CableSystem_SegmentFlex-5_constraint_20: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_21
+constraint CableSystem_SegmentFlex-5_constraint_21: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_22
+constraint CableSystem_SegmentFlex-5_constraint_22: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_23
+constraint CableSystem_SegmentFlex-5_constraint_23: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_24
+constraint CableSystem_SegmentFlex-5_constraint_24: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_25
+constraint CableSystem_SegmentFlex-5_constraint_25: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_26
+constraint CableSystem_SegmentFlex-5_constraint_26: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_27
+constraint CableSystem_SegmentFlex-5_constraint_27: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_28
+constraint CableSystem_SegmentFlex-5_constraint_28: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_29
+constraint CableSystem_SegmentFlex-5_constraint_29: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_30
+constraint CableSystem_SegmentFlex-5_constraint_30: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_31
+constraint CableSystem_SegmentFlex-5_constraint_31: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_32
+constraint CableSystem_SegmentFlex-5_constraint_32: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_33
+constraint CableSystem_SegmentFlex-5_constraint_33: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_34
+constraint CableSystem_SegmentFlex-5_constraint_34: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_35
+constraint CableSystem_SegmentFlex-5_constraint_35: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_36
+constraint CableSystem_SegmentFlex-5_constraint_36: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_37
+constraint CableSystem_SegmentFlex-5_constraint_37: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_38
+constraint CableSystem_SegmentFlex-5_constraint_38: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_39
+constraint CableSystem_SegmentFlex-5_constraint_39: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_40
+constraint CableSystem_SegmentFlex-5_constraint_40: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_41
+constraint CableSystem_SegmentFlex-5_constraint_41: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_42
+constraint CableSystem_SegmentFlex-5_constraint_42: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_43
+constraint CableSystem_SegmentFlex-5_constraint_43: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_44
+constraint CableSystem_SegmentFlex-5_constraint_44: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_45
+constraint CableSystem_SegmentFlex-5_constraint_45: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_46
+constraint CableSystem_SegmentFlex-5_constraint_46: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_47
+constraint CableSystem_SegmentFlex-5_constraint_47: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_48
+constraint CableSystem_SegmentFlex-5_constraint_48: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_49
+constraint CableSystem_SegmentFlex-5_constraint_49: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_50
+constraint CableSystem_SegmentFlex-5_constraint_50: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_51
+constraint CableSystem_SegmentFlex-5_constraint_51: is disabled
+Constraint: CableSystem_SegmentFlex-5_constraint_52
+constraint CableSystem_SegmentFlex-5_constraint_52: attached to:
+ cable_part_52
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.16, 33.93
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_53
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.16, 33.72
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.444409 with max force 1.79769e+308 lock stiffness 22501.8 and lock damping 4500.35
+  Coord 0 is limited at 0.333307 4.44409, curr pos = 0.6506
+
+Constraint: CableSystem_SegmentFlex-5_constraint_53
+constraint CableSystem_SegmentFlex-5_constraint_53: attached to:
+ cable_part_53
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.15, 33.28
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_54
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.14, 33.07
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.442932 with max force 1.79769e+308 lock stiffness 22576.8 and lock damping 4515.36
+  Coord 0 is limited at 0.332199 4.42932, curr pos = 0.648244
+
+Constraint: CableSystem_SegmentFlex-5_constraint_54
+constraint CableSystem_SegmentFlex-5_constraint_54: attached to:
+ cable_part_54
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.13, 32.63
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_55
+ 1	relpos = 0.00, 0.00, -0.45
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.13, 32.42
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.447012 with max force 1.79769e+308 lock stiffness 22370.8 and lock damping 4474.15
+  Coord 0 is limited at 0.335259 4.47012, curr pos = 0.654019
+
+Constraint: CableSystem_SegmentFlex-5_constraint_55
+constraint CableSystem_SegmentFlex-5_constraint_55: attached to:
+ cable_part_55
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.12, 31.98
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_56
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.11, 31.77
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.437748 with max force 1.79769e+308 lock stiffness 22844.2 and lock damping 4568.84
+  Coord 0 is limited at 0.328311 4.37748, curr pos = 0.64027
+
+Constraint: CableSystem_SegmentFlex-5_constraint_56
+constraint CableSystem_SegmentFlex-5_constraint_56: attached to:
+ cable_part_56
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.10, 31.34
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_57
+ 1	relpos = 0.00, 0.00, -0.45
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.10, 31.13
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.446313 with max force 1.79769e+308 lock stiffness 22405.8 and lock damping 4481.16
+  Coord 0 is limited at 0.334735 4.46313, curr pos = 0.652605
+
+Constraint: CableSystem_SegmentFlex-5_constraint_57
+constraint CableSystem_SegmentFlex-5_constraint_57: attached to:
+ cable_part_57
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.09, 30.68
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_58
+ 1	relpos = 0.00, 0.00, -0.45
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.08, 30.48
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.445622 with max force 1.79769e+308 lock stiffness 22440.5 and lock damping 4488.11
+  Coord 0 is limited at 0.334216 4.45622, curr pos = 0.651397
+
+Constraint: CableSystem_SegmentFlex-5_constraint_58
+constraint CableSystem_SegmentFlex-5_constraint_58: attached to:
+ cable_part_58
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.07, 30.03
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_59
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.07, 29.83
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.436504 with max force 1.79769e+308 lock stiffness 22909.3 and lock damping 4581.86
+  Coord 0 is limited at 0.327378 4.36504, curr pos = 0.637874
+
+Constraint: CableSystem_SegmentFlex-5_constraint_59
+constraint CableSystem_SegmentFlex-5_constraint_59: attached to:
+ cable_part_59
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.06, 29.39
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_60
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.05, 29.19
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.444855 with max force 1.79769e+308 lock stiffness 22479.2 and lock damping 4495.85
+  Coord 0 is limited at 0.333641 4.44855, curr pos = 0.649884
+
+Constraint: CableSystem_SegmentFlex-5_constraint_60
+constraint CableSystem_SegmentFlex-5_constraint_60: attached to:
+ cable_part_60
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.04, 28.74
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_61
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.03, 28.54
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.444821 with max force 1.79769e+308 lock stiffness 22480.9 and lock damping 4496.19
+  Coord 0 is limited at 0.333616 4.44821, curr pos = 0.649637
+
+Constraint: CableSystem_SegmentFlex-5_constraint_61
+constraint CableSystem_SegmentFlex-5_constraint_61: attached to:
+ cable_part_61
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.02, 28.10
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_62
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.02, 27.89
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.439069 with max force 1.79769e+308 lock stiffness 22775.5 and lock damping 4555.1
+  Coord 0 is limited at 0.329302 4.39069, curr pos = 0.641039
+
+Constraint: CableSystem_SegmentFlex-5_constraint_62
+constraint CableSystem_SegmentFlex-5_constraint_62: attached to:
+ cable_part_62
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.01, 27.45
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_63
+ 1	relpos = 0.00, 0.00, -0.45
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.00, 27.25
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.445642 with max force 1.79769e+308 lock stiffness 22439.5 and lock damping 4487.91
+  Coord 0 is limited at 0.334231 4.45642, curr pos = 0.65044
+
+Constraint: CableSystem_SegmentFlex-5_constraint_63
+constraint CableSystem_SegmentFlex-5_constraint_63: attached to:
+ cable_part_63
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.99, 26.80
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_64
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.99, 26.60
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.44329 with max force 1.79769e+308 lock stiffness 22558.6 and lock damping 4511.72
+  Coord 0 is limited at 0.332467 4.4329, curr pos = 0.646807
+
+Constraint: CableSystem_SegmentFlex-5_constraint_64
+constraint CableSystem_SegmentFlex-5_constraint_64: attached to:
+ cable_part_64
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.98, 26.16
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_65
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.97, 25.95
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443279 with max force 1.79769e+308 lock stiffness 22559.2 and lock damping 4511.83
+  Coord 0 is limited at 0.332459 4.43279, curr pos = 0.646593
+
+Constraint: CableSystem_SegmentFlex-5_constraint_65
+constraint CableSystem_SegmentFlex-5_constraint_65: attached to:
+ cable_part_65
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.96, 25.51
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_66
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.96, 25.31
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443267 with max force 1.79769e+308 lock stiffness 22559.8 and lock damping 4511.95
+  Coord 0 is limited at 0.33245 4.43267, curr pos = 0.646376
+
+Constraint: CableSystem_SegmentFlex-5_constraint_66
+constraint CableSystem_SegmentFlex-5_constraint_66: attached to:
+ cable_part_66
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.95, 24.87
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_67
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.94, 24.66
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443254 with max force 1.79769e+308 lock stiffness 22560.4 and lock damping 4512.09
+  Coord 0 is limited at 0.33244 4.43254, curr pos = 0.646157
+
+Constraint: CableSystem_SegmentFlex-5_constraint_67
+constraint CableSystem_SegmentFlex-5_constraint_67: attached to:
+ cable_part_67
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.93, 24.22
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_68
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.93, 24.02
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443239 with max force 1.79769e+308 lock stiffness 22561.2 and lock damping 4512.23
+  Coord 0 is limited at 0.33243 4.43239, curr pos = 0.645937
+
+Constraint: CableSystem_SegmentFlex-5_constraint_68
+constraint CableSystem_SegmentFlex-5_constraint_68: attached to:
+ cable_part_68
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.92, 23.57
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_69
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.91, 23.37
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443224 with max force 1.79769e+308 lock stiffness 22562 and lock damping 4512.39
+  Coord 0 is limited at 0.332418 4.43224, curr pos = 0.645713
+
+Constraint: CableSystem_SegmentFlex-5_constraint_69
+constraint CableSystem_SegmentFlex-5_constraint_69: attached to:
+ cable_part_69
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.90, 22.93
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_70
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.89, 22.73
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443207 with max force 1.79769e+308 lock stiffness 22562.8 and lock damping 4512.57
+  Coord 0 is limited at 0.332405 4.43207, curr pos = 0.645487
+
+Constraint: CableSystem_SegmentFlex-5_constraint_70
+constraint CableSystem_SegmentFlex-5_constraint_70: attached to:
+ cable_part_70
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.88, 22.28
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_71
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.88, 22.08
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443188 with max force 1.79769e+308 lock stiffness 22563.8 and lock damping 4512.76
+  Coord 0 is limited at 0.332391 4.43188, curr pos = 0.645259
+
+Constraint: CableSystem_SegmentFlex-5_constraint_71
+constraint CableSystem_SegmentFlex-5_constraint_71: attached to:
+ cable_part_71
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.87, 21.64
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_72
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.86, 21.44
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443167 with max force 1.79769e+308 lock stiffness 22564.8 and lock damping 4512.97
+  Coord 0 is limited at 0.332375 4.43167, curr pos = 0.645027
+
+Constraint: CableSystem_SegmentFlex-5_constraint_72
+constraint CableSystem_SegmentFlex-5_constraint_72: attached to:
+ cable_part_72
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.85, 20.99
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_73
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.85, 20.79
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443146 with max force 1.79769e+308 lock stiffness 22565.9 and lock damping 4513.18
+  Coord 0 is limited at 0.33236 4.43146, curr pos = 0.644794
+
+Constraint: CableSystem_SegmentFlex-5_constraint_73
+constraint CableSystem_SegmentFlex-5_constraint_73: attached to:
+ cable_part_73
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.84, 20.35
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_74
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.83, 20.15
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443124 with max force 1.79769e+308 lock stiffness 22567 and lock damping 4513.41
+  Coord 0 is limited at 0.332343 4.43124, curr pos = 0.644559
+
+Constraint: CableSystem_SegmentFlex-5_constraint_74
+constraint CableSystem_SegmentFlex-5_constraint_74: attached to:
+ cable_part_74
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.82, 19.70
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_75
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.82, 19.50
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.4431 with max force 1.79769e+308 lock stiffness 22568.3 and lock damping 4513.66
+  Coord 0 is limited at 0.332325 4.431, curr pos = 0.64432
+
+Constraint: CableSystem_SegmentFlex-5_constraint_75
+constraint CableSystem_SegmentFlex-5_constraint_75: attached to:
+ cable_part_75
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.80, 19.06
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_76
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.80, 18.86
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443089 with max force 1.79769e+308 lock stiffness 22568.9 and lock damping 4513.77
+  Coord 0 is limited at 0.332316 4.43089, curr pos = 0.6441
+
+Constraint: CableSystem_SegmentFlex-5_constraint_76
+constraint CableSystem_SegmentFlex-5_constraint_76: attached to:
+ cable_part_76
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.79, 18.42
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_77
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.78, 18.22
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443087 with max force 1.79769e+308 lock stiffness 22568.9 and lock damping 4513.79
+  Coord 0 is limited at 0.332315 4.43087, curr pos = 0.643894
+
+Constraint: CableSystem_SegmentFlex-5_constraint_77
+constraint CableSystem_SegmentFlex-5_constraint_77: attached to:
+ cable_part_77
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.77, 17.77
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_78
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.77, 17.57
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443092 with max force 1.79769e+308 lock stiffness 22568.7 and lock damping 4513.73
+  Coord 0 is limited at 0.332319 4.43092, curr pos = 0.643697
+
+Constraint: CableSystem_SegmentFlex-5_constraint_78
+constraint CableSystem_SegmentFlex-5_constraint_78: attached to:
+ cable_part_78
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.76, 17.13
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_79
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.75, 16.93
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443106 with max force 1.79769e+308 lock stiffness 22568 and lock damping 4513.6
+  Coord 0 is limited at 0.332329 4.43106, curr pos = 0.643511
+
+Constraint: CableSystem_SegmentFlex-5_constraint_79
+constraint CableSystem_SegmentFlex-5_constraint_79: attached to:
+ cable_part_79
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.74, 16.49
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_80
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.74, 16.29
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443128 with max force 1.79769e+308 lock stiffness 22566.8 and lock damping 4513.37
+  Coord 0 is limited at 0.332346 4.43128, curr pos = 0.643338
+
+Constraint: CableSystem_SegmentFlex-5_constraint_80
+constraint CableSystem_SegmentFlex-5_constraint_80: attached to:
+ cable_part_80
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.73, 15.84
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_81
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.72, 15.64
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443161 with max force 1.79769e+308 lock stiffness 22565.1 and lock damping 4513.03
+  Coord 0 is limited at 0.332371 4.43161, curr pos = 0.643181
+
+Constraint: CableSystem_SegmentFlex-5_constraint_81
+constraint CableSystem_SegmentFlex-5_constraint_81: attached to:
+ cable_part_81
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.71, 15.20
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_82
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.70, 15.00
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443211 with max force 1.79769e+308 lock stiffness 22562.6 and lock damping 4512.52
+  Coord 0 is limited at 0.332408 4.43211, curr pos = 0.643046
+
+Constraint: CableSystem_SegmentFlex-5_constraint_82
+constraint CableSystem_SegmentFlex-5_constraint_82: attached to:
+ cable_part_82
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.69, 14.56
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_83
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.69, 14.36
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443293 with max force 1.79769e+308 lock stiffness 22558.5 and lock damping 4511.69
+  Coord 0 is limited at 0.33247 4.43293, curr pos = 0.642957
+
+Constraint: CableSystem_SegmentFlex-5_constraint_83
+constraint CableSystem_SegmentFlex-5_constraint_83: attached to:
+ cable_part_83
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.68, 13.91
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_84
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.67, 13.71
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443427 with max force 1.79769e+308 lock stiffness 22551.6 and lock damping 4510.33
+  Coord 0 is limited at 0.33257 4.43427, curr pos = 0.642945
+
+Constraint: CableSystem_SegmentFlex-5_constraint_84
+constraint CableSystem_SegmentFlex-5_constraint_84: attached to:
+ cable_part_84
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.66, 13.27
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_85
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.66, 13.07
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is locked at position 0.443668 with max force 1.79769e+308 lock stiffness 22539.4 and lock damping 4507.88
+  Coord 0 is limited at 0.332751 4.43668, curr pos = 0.643086
+
+Constraint: CableSystem_SegmentFlex-5_constraint_85
+constraint CableSystem_SegmentFlex-5_constraint_85: attached to:
+ cable_part_85
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.65, 12.63
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_86
+ 1	relpos = 0.00, 0.00, -0.44
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.64, 12.43
+	absax0 = 0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+  Coord 0 is locked at position 0.444129 with max force 1.79769e+308 lock stiffness 22516 and lock damping 4503.2
+  Coord 0 is limited at 0.333097 4.44129, curr pos = 0.643545
+
+Constraint: CableSystem_SegmentFlex-5_constraint_86
+constraint CableSystem_SegmentFlex-5_constraint_86: attached to:
+ cable_part_86
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.63, 11.99
+	absax0 = 0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+ cable_part_87
+ 1	relpos = 0.00, 0.00, -0.45
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.62, 11.79
+	absax0 = 0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+  Coord 0 is locked at position 0.44504 with max force 1.79769e+308 lock stiffness 22469.9 and lock damping 4493.98
+  Coord 0 is limited at 0.33378 4.4504, curr pos = 0.644654
+
+Constraint: CableSystem_SegmentFlex-5_constraint_87
+constraint CableSystem_SegmentFlex-5_constraint_87: attached to:
+ cable_part_87
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.61, 11.34
+	absax0 = 0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+ cable_part_88
+ 1	relpos = 0.00, 0.00, -0.45
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.61, 11.14
+	absax0 = 0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+  Coord 0 is locked at position 0.446872 with max force 1.79769e+308 lock stiffness 22377.8 and lock damping 4475.56
+  Coord 0 is limited at 0.335154 4.46872, curr pos = 0.647095
+
+Constraint: CableSystem_SegmentFlex-5_constraint_88
+constraint CableSystem_SegmentFlex-5_constraint_88: attached to:
+ cable_part_88
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.60, 10.69
+	absax0 = 0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+ cable_part_97
+ 1	relpos = 0.00, 0.00, -0.48
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.59, 10.48
+	absax0 = 0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+  Coord 0 is locked at position 0.482218 with max force 1.79769e+308 lock stiffness 20737.5 and lock damping 4147.5
+  Coord 0 is limited at 0.361664 4.82218, curr pos = 0.698049
+
+Constraint: CableSystem_SegmentFlex-5_constraint_89
+constraint CableSystem_SegmentFlex-5_constraint_89: attached to:
+ cable_part_89
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.40, 3.00
+	absax0 = -0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+ cable_last_part
+ 1	relpos = 0.00, 0.00, -0.61
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.40, 2.74
+	absax0 = -0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+  Coord 0 is locked at position 0.605304 with max force 1.79769e+308 lock stiffness 16520.6 and lock damping 3304.13
+  Coord 0 is limited at 0.453978 3.63182, curr pos = 0.872728
+
+Constraint: CableSystem_SegmentFlex-5_constraint_90
+constraint CableSystem_SegmentFlex-5_constraint_90: attached to:
+ cable_part_90
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.42, 3.88
+	absax0 = -0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+ cable_part_89
+ 1	relpos = 0.00, 0.00, -0.61
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.42, 3.61
+	absax0 = -0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+  Coord 0 is locked at position 0.605304 with max force 1.79769e+308 lock stiffness 16520.6 and lock damping 3304.13
+  Coord 0 is limited at 0.453978 6.05304, curr pos = 0.87313
+
+Constraint: CableSystem_SegmentFlex-5_constraint_91
+constraint CableSystem_SegmentFlex-5_constraint_91: attached to:
+ cable_part_91
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.45, 4.75
+	absax0 = -0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+ cable_part_90
+ 1	relpos = 0.00, 0.00, -0.61
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.44, 4.48
+	absax0 = -0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+  Coord 0 is locked at position 0.605304 with max force 1.79769e+308 lock stiffness 16520.6 and lock damping 3304.13
+  Coord 0 is limited at 0.453978 6.05304, curr pos = 0.873531
+
+Constraint: CableSystem_SegmentFlex-5_constraint_92
+constraint CableSystem_SegmentFlex-5_constraint_92: attached to:
+ cable_part_92
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.47, 5.62
+	absax0 = -0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+ cable_part_91
+ 1	relpos = 0.00, 0.00, -0.61
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.46, 5.35
+	absax0 = -0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+  Coord 0 is locked at position 0.605304 with max force 1.79769e+308 lock stiffness 16520.6 and lock damping 3304.13
+  Coord 0 is limited at 0.453978 6.05304, curr pos = 0.873931
+
+Constraint: CableSystem_SegmentFlex-5_constraint_93
+constraint CableSystem_SegmentFlex-5_constraint_93: attached to:
+ cable_part_93
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.49, 6.50
+	absax0 = -0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+ cable_part_92
+ 1	relpos = 0.00, 0.00, -0.61
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.48, 6.23
+	absax0 = -0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+  Coord 0 is locked at position 0.605304 with max force 1.79769e+308 lock stiffness 16520.6 and lock damping 3304.13
+  Coord 0 is limited at 0.453978 6.05304, curr pos = 0.87433
+
+Constraint: CableSystem_SegmentFlex-5_constraint_94
+constraint CableSystem_SegmentFlex-5_constraint_94: attached to:
+ cable_part_94
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.51, 7.37
+	absax0 = -0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+ cable_part_93
+ 1	relpos = 0.00, 0.00, -0.61
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.51, 7.10
+	absax0 = -0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+  Coord 0 is locked at position 0.605304 with max force 1.79769e+308 lock stiffness 16520.6 and lock damping 3304.13
+  Coord 0 is limited at 0.453978 6.05304, curr pos = 0.874727
+
+Constraint: CableSystem_SegmentFlex-5_constraint_95
+constraint CableSystem_SegmentFlex-5_constraint_95: attached to:
+ cable_part_95
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.54, 8.25
+	absax0 = 0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+ cable_part_94
+ 1	relpos = 0.00, 0.00, -0.61
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.53, 7.98
+	absax0 = -0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+  Coord 0 is locked at position 0.605304 with max force 1.79769e+308 lock stiffness 16520.6 and lock damping 3304.13
+  Coord 0 is limited at 0.453978 6.05304, curr pos = 0.875123
+
+Constraint: CableSystem_SegmentFlex-5_constraint_96
+constraint CableSystem_SegmentFlex-5_constraint_96: attached to:
+ cable_part_96
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.56, 9.12
+	absax0 = 0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+ cable_part_95
+ 1	relpos = 0.00, 0.00, -0.61
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.55, 8.85
+	absax0 = 0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+  Coord 0 is locked at position 0.605304 with max force 1.79769e+308 lock stiffness 16520.6 and lock damping 3304.13
+  Coord 0 is limited at 0.453978 6.05304, curr pos = 0.875518
+
+Constraint: CableSystem_SegmentFlex-5_constraint_97
+constraint CableSystem_SegmentFlex-5_constraint_97: attached to:
+ cable_part_97
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.58, 10.00
+	absax0 = 0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+ cable_part_96
+ 1	relpos = 0.00, 0.00, -0.61
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 11.57, 9.73
+	absax0 = 0.00, 0.03, 1.00
+	absax1 = 0.00, 1.00, -0.03
+  Coord 0 is locked at position 0.605304 with max force 1.79769e+308 lock stiffness 16520.6 and lock damping 3304.13
+  Coord 0 is limited at 0.453978 6.05304, curr pos = 0.875912
+
+Constraint: CableSystem_SegmentFlex-5_constraint_98
+constraint CableSystem_SegmentFlex-5_constraint_98: attached to:
+ C_part
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = 0.00, 12.18, 34.63
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+ cable_part_52
+ 1	relpos = 0.00, 0.00, -0.71
+	relax0 = 0.00, 0.00, -1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = 0.00, 12.18, 34.63
+	absax0 = 0.00, 0.02, 1.00
+	absax1 = 0.00, 1.00, -0.02
+  Coord 0 is free
+  Coord 0 is limited at 0.529859 3.733, curr pos = 0.706473
+
+Constraint: CableSystem_SegmentFlex-5_Constraint_Attachment_LastExtremity
+constraint CableSystem_SegmentFlex-5_Constraint_Attachment_LastExtremity: attached to:
+ TipPulley
+ 0	relpos = 0.00, 0.00, 0.00
+	relax0 = 1.00, 0.00, 0.00
+	relax1 = 0.00, 0.93, 0.37
+	abspos = 0.00, 11.18, 34.65
+	absax0 = 1.00, -0.00, -0.00
+	absax1 = 0.00, -0.79, 0.62
+ C_part
+ 1	relpos = 0.00, 0.00, 0.00
+	relax0 = -1.00, 0.00, 0.00
+	relax1 = 0.00, 0.00, 1.00
+	abspos = 0.00, 12.18, 34.63
+	absax0 = 1.00, -0.00, 0.00
+	absax1 = -0.00, -0.02, -1.00
+
+Constraint: CableSystem_SegmentFlex-5_Constraint_Attachment_FirstExtremity
+constraint CableSystem_SegmentFlex-5_Constraint_Attachment_FirstExtremity: attached to:
+ cable_last_part
+ 0	relpos = 0.00, -0.00, -0.00
+	relax0 = 0.00, 0.00, 1.00
+	relax1 = 1.00, 0.00, 0.00
+	abspos = -0.00, 11.38, 2.13
+	absax0 = 0.00, -0.03, -1.00
+	absax1 = -1.00, 0.00, -0.00
+ Load
+ 1	relpos = 0.00, 0.00, 0.50
+	relax0 = 0.00, 0.37, -0.93
+	relax1 = -1.00, 0.00, 0.00
+	abspos = -0.00, 11.38, 2.13
+	absax0 = -0.00, 0.32, -0.95
+	absax1 = -1.00, -0.00, 0.00
+
+Constraint: default_VxGearRatio_1201
+constraint default_VxGearRatio_1201: attached to:
+ TipPulley
+ 0	relpos = 0.00, 24.85, 6.26
+	relax0 = 1.00, 0.00, 0.00
+	relax1 = 0.00, 0.00, 1.00
+	abspos = 0.00, -6.74, 52.97
+	absax0 = 1.00, -0.00, -0.00
+	absax1 = -0.00, -0.86, -0.50
+ cable_part_52
+ 1	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, 1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = -0.00, 12.16, 33.93
+	absax0 = -0.00, -0.02, -1.00
+	absax1 = 0.00, 1.00, -0.02
+ upperBoom
+ 2	relpos = 0.00, 40.70, 4.53
+	relax0 = 1.00, 0.00, 0.00
+	relax1 = 0.00, 0.00, 1.00
+	abspos = 0.00, 13.49, 60.17
+	absax0 = 1.00, -0.00, -0.00
+	absax1 = -0.00, -0.94, 0.33
+ C_part
+ 3	relpos = 0.00, 0.00, 0.00
+	relax0 = 0.00, 0.00, 1.00
+	relax1 = 0.00, 1.00, 0.00
+	abspos = 0.00, 12.18, 34.63
+	absax0 = -0.00, -0.02, -1.00
+	absax1 = 0.00, 1.00, -0.02
+  ratios = 1.00 
+
+
+dynamic part count = 54
+frozen part count = 55
+asleep part count = 0
+enabled constraint count = 57
+
+Global solver parameters:
+cross grp depth =   0, max coupling iterations =   5, secondary partition max size =  10
+
+Solver group in use:
+	LC: LinearCompliance 	 LD: LinearDamping 		 LK: LinearKineticLoss
+	AC: AngularCompliance 	 AD: AngularDamping 	 AK: AngularKineticLoss
+Parameters for group id: 0 (Std), partition part max count =  -1, cross grp depth =   0, max coupling iterations =   5, secondary solver group =   0
+	LC =       1e-010   LD =   8.333e+008   LK =       6e-009
+	AC =       1e-010   AD =   8.333e+008   AK =       6e-009
+	LCP Parameters: max iteration =  35, scale box max iteration =   1, scale box tolerance =       0.0001
+	Iterative Constraint Solver Parameters: max iteration =  20, solver tolerance =        0.001
+
+
+Secondary solver group in use:
+	LC: LinearCompliance 	 LD: LinearDamping 		 LK: LinearKineticLoss
+	AC: AngularCompliance 	 AD: AngularDamping 	 AK: AngularKineticLoss
+Parameters for group id: 0 (Std), partition part max count =  -1, cross grp depth =   0, max coupling iterations =   5, secondary solver group =   0
+	LC =       1e-010   LD =   8.333e+008   LK =       6e-009
+	AC =       1e-010   AD =   8.333e+008   AK =       6e-009
+	LCP Parameters: max iteration =  35, scale box max iteration =   1, scale box tolerance =       0.0001
+	Iterative Constraint Solver Parameters: max iteration =  20, solver tolerance =        0.001
+
+
+Default Auto-Disable Parameters:
+Lin Speed = 0.14 Lin Acc = 0.045   Ang Speed = 0.03  Ang Acc = 0.045  steps = 10
+
+
+====== Beginning the material table ========= 
+
+Number of registred material 2
+
+Name:                        default		 ID =     0
+
+restitution                              0
+velThreshold                         0.001
+compliance                               0
+damping                                  0
+max_adhesive_force                       0
+options                                  0
+integrated displacement: 	 Neutral 
+
+Name:                       concrete		 ID =     1
+
+Axis kFrictionAxisLinearPrimary: Friction Model Scaled Box
+   coefficient                          1
+   slip                             0.0001
+   slide                                 0
+   static friction scale                 1
+Axis kFrictionAxisLinearSecondary: Friction Model Scaled Box
+   coefficient                          1
+   slip                             0.0001
+   slide                                 0
+   static friction scale                 1
+restitution                              0
+velThreshold                         0.001
+compliance                          1e-006
+damping                             100000
+max_adhesive_force                       0
+options                                  4
+integrated displacement: 	 Activated 
+
+
+
+====== Material table Entries ========= 
+
+
+
+
+entry (  0,   0)             default      default     :
+restitution                              0
+velThreshold                         0.001
+compliance                               0
+damping                                  0
+max_adhesive_force                       0
+options                                  0
+This material is : Not Locked
+This material is : Automat Locking
+Integrated Slip Displacement : Not Activated
+This material doesn't have a tire model
+
+
+entry (  0,   1)             default      concrete    :
+restitution                              0
+velThreshold                         0.001
+compliance                          1e-006
+damping                             100000
+max_adhesive_force                       0
+options                                  4
+This material is : Not Locked
+This material is : Automat Locking
+Integrated Slip Displacement : Activated
+This material doesn't have a tire model
+
+
+entry (  1,   1)             concrete     concrete    :
+Axis kFrictionAxisLinearPrimary: Friction Model Scaled Box
+   coefficient                          1
+   slip                             0.0001
+   slide                                 0
+   static friction scale                 1
+Axis kFrictionAxisLinearSecondary: Friction Model Scaled Box
+   coefficient                          1
+   slip                             0.0001
+   slide                                 0
+   static friction scale                 1
+restitution                              0
+velThreshold                         0.001
+compliance                          1e-006
+damping                             100000
+max_adhesive_force                       0
+options                                  4
+This material is : Not Locked
+This material is : Automat Locking
+Integrated Slip Displacement : Activated
+This material doesn't have a tire model
+
